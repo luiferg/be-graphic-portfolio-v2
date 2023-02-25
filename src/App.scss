@@ -1,0 +1,55 @@
+$primary-color: #35BCAF;
+$secondary-color: #F4B645;
+$tertiary-color: #EF7742;
+$white-color: #FFFFFF;
+$dark-color: #414141;
+$secondary-dark-color: #18534d;
+$light-pink-color: #F4D0C2;
+$pink-color: #ED9E99;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'OhnoBlazeface';
+  src: url('./assets/fonts/OhnoBlazeface-18Point.ttf');
+}
+
+@font-face {
+  font-family: 'Blossom Heart';
+  src: url('./assets/fonts/BlossomHeart.ttf');
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: 'OhnoBlazeface', Serif;
+}
+
+h2 {
+  font-family: 'Raleway', Serif;
+}
+
+
+input,
+textarea{
+  font-family: 'Raleway';
+}
+
+.blocks-wrapper {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  animation: bounceOut 1s 1s;
+  animation-fill-mode: forwards;
+}

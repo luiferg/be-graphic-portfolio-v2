@@ -1,0 +1,82 @@
+.experience-container {
+  z-index: 0;
+  background-color: #35BCAF;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  bottom: 0;
+  animation: fadeIn 1s 1s backwards;
+  animation-delay: 1.5s;
+
+  .experience-text-zone{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+    h2 {
+      font-family: 'OhnoBlazeface';
+      margin-bottom: 0;
+      font-size: 28px;
+      color: #FFFFFF;
+      font-weight: 100;
+      letter-spacing: 2px;
+    }
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-family: 'Raleway';
+      font-size: 30px;
+      color: #FFFFFF;
+    }
+    h4 {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-family: 'Raleway';
+      font-size: 25px;
+      font-weight: 400;
+      color: #FFFFFF;
+    }
+    ul{
+      list-style: none;
+      
+      li:before {
+        color:#F4B645;
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+      }
+      li {
+        font-family: 'Raleway';
+        font-size: 20px;
+        font-weight: 400;
+        color: #FFFFFF;
+      }
+      
+    }
+    .icon-zone {
+      a {
+        font-size: 60px;
+        display: inline-block;
+        justify-content: space-between;
+        color: #FFFFFF;
+        margin: 2% 20% 0 5%;
+        .about-icon {
+          transition: all 0.3s ease-out;
+        }
+        &:hover svg{
+          color: #18534d;
+          transition: all 0.3s ease-out;
+          scale: 1.1;
+        }
+      }
+    }
+  }
+}

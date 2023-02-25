@@ -1,0 +1,73 @@
+.testimonials-container {
+  z-index: 0;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  animation: fadeIn 1s 1s backwards;
+  animation-delay: 1.5s;
+
+  .testimonial-person-container{
+    padding-left: 10%;
+    .testimonial-name {
+      font-family: 'Raleway';
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: #FFFFFF;
+      vertical-align: middle;
+    }
+    img {
+      display: inline-block;
+      margin-left: 20px;
+      &.testimonial-image{
+        border-radius: 50%;
+        vertical-align: middle;
+        border:  3px solid #FFFFFF;
+        width: 80px;
+      }
+    }
+  }
+  
+  .testimonial-symbol {
+    font-family: 'Blossom Heart';
+    font-size: 160px;
+    padding: 0;
+    margin: 0 0 -160px 0;
+  }
+
+  .paragraph-container {
+    padding: 10% 10% 0 10%;
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    color: #FFFFFF;
+  }
+
+  .testimonial-row-1 {
+    display: flex;
+    height: 50%;
+    .testimonial-1 {
+      width: 45%;
+      background-color: #35BCAF;
+    }
+    .testimonial-2 {
+      width: 55%;
+      background-color: #ED9E99;
+    }
+  }
+  .testimonial-row-2 {
+    display: flex;
+    height: 50%;
+    .testimonial-3 {
+      width: 55%;
+      background-color: #F4D0C2;
+    }
+    .testimonial-4 {
+      width: 45%;
+      background-color: #F4B645;
+    }
+  }
+  
+}
